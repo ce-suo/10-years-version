@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "034D5FCF414553E2"
+	group: ""
+	icon: "touhou_little_maid:maid_spawn_egg"
+	id: "034D5FCF414553E2"
+	order_index: 14
+	quest_links: [ ]
+	quests: [{
+		id: "62622610B1EDB953"
+		tasks: [{
+			id: "583EAFF2C7689DE4"
+			title: "没什么好说的"
+			type: "checkmark"
+		}]
+		x: -1.5d
+		y: -2.0d
+	}]
+	title: "女仆"
+}

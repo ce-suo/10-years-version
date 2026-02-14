@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2B114E434FC2C161"
+	group: "10BB6212A555998F"
+	icon: "aether:aether_portal_frame"
+	id: "2B114E434FC2C161"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "0C71536E85E66FC1"
+		tasks: [{
+			id: "05BDE220E33508AC"
+			title: "极大丰富群系"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: -1.0d
+	}]
+	title: "天境"
+}

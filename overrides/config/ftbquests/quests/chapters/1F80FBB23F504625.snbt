@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1F80FBB23F504625"
+	group: "10BB6212A555998F"
+	icon: "ad_astra:venus_globe"
+	id: "1F80FBB23F504625"
+	order_index: 11
+	quest_links: [ ]
+	quests: [{
+		id: "204DBC67DA765E4A"
+		tasks: [{
+			id: "06F1F2C51DC200C3"
+			title: "ad astra"
+			type: "checkmark"
+		}]
+		x: -1.5d
+		y: -1.0d
+	}]
+	title: "金星"
+}

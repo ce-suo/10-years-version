@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1706213AE94B34F0"
+	group: "10BB6212A555998F"
+	icon: "ad_astra:mars_globe"
+	id: "1706213AE94B34F0"
+	order_index: 10
+	quest_links: [ ]
+	quests: [{
+		id: "26C4CB240D03A93E"
+		tasks: [{
+			id: "7A79D514C9668CFC"
+			title: "ad astra"
+			type: "checkmark"
+		}]
+		x: -2.5d
+		y: -2.5d
+	}]
+	title: "火星"
+}

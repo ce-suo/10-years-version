@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5A0C89AAB5AC0293"
+	group: ""
+	icon: "tacz:gun_smith_table"
+	id: "5A0C89AAB5AC0293"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "799EAB5EFAF0C243"
+		tasks: [{
+			id: "4F864131A0C62D79"
+			title: "tacz"
+			type: "checkmark"
+		}]
+		x: -1.5d
+		y: 0.5d
+	}]
+	title: "枪械"
+}

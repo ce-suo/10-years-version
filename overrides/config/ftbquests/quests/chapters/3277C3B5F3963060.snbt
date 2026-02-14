@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3277C3B5F3963060"
+	group: "10BB6212A555998F"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "3277C3B5F3963060"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "13B61DCD8985F187"
+		tasks: [{
+			id: "747AABC9F302D6D2"
+			title: "没做什么修改"
+			type: "checkmark"
+		}]
+		x: -1.0d
+		y: -1.0d
+	}]
+	title: "暮色森林"
+}

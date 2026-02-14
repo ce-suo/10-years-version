@@ -1,0 +1,260 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0CD60F7DE3D1D9E4"
+	group: ""
+	id: "0CD60F7DE3D1D9E4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["按tab键可连锁采集"]
+			id: "6D2BC7DA11F523F9"
+			tasks: [{
+				id: "25DEB5AA63B28E79"
+				title: "一键挖掘"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			description: ["添加了更多存储工具以及检索工具"]
+			icon: "storagenetwork:inventory"
+			id: "45B2A0528D474CFC"
+			tasks: [{
+				id: "11667362CACB94E3"
+				title: "更好的存储"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			description: ["可将生物放置在里面，方便随身携带"]
+			icon: {
+				Count: 1
+				id: "portablemobs:basic_capture_cell"
+				tag: { }
+			}
+			id: "3E0DE1EB6C8AC836"
+			tasks: [{
+				id: "78710B05B883D542"
+				title: "捕获笼"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: ["对着生物或方块空手同时按住潜行+右键可将其抱起来"]
+			id: "680FB3A4AC430C01"
+			tasks: [{
+				id: "713969A6CE8FDB5C"
+				title: "抱起"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			description: ["除了传送石碑没有其他定向传送手段"]
+			icon: "waystones:waystone"
+			id: "26F99ED871BD73D9"
+			tasks: [{
+				id: "593FED1E9F4DB4AE"
+				type: "checkmark"
+			}]
+			title: "传送"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			description: ["可用于随身携带更多物品"]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "2CA8F8452C3C1BE8"
+			rewards: [{
+				id: "2D7694C254A6C5EB"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3209DAFC7757930C"
+				title: "背包"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: ["新增了非常多的饰品栏，合理搭配可优化游戏体验"]
+			icon: {
+				Count: 1
+				id: "confluence:terraspark_boots"
+				tag: { }
+			}
+			id: "0C1685A890B0EC18"
+			tasks: [{
+				id: "4B5021C65DA27AEF"
+				title: "饰品"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			description: ["吃不同种类的食物可提升生命上限，吃的种类越多，生命上限提升越多"]
+			icon: "minecraft:carrot"
+			id: "6E6E7CA8D4FFA76D"
+			tasks: [{
+				id: "4963B8359347C759"
+				title: "生活调味料"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			description: ["用试炼通行证可在女神雕像处增加血量上限"]
+			icon: "paraglider:goddess_statue"
+			id: "72536D67710ADA5D"
+			tasks: [{
+				id: "3F8E5FE63806F314"
+				title: "女神雕像"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			description: ["不建议打开死亡不掉落，死亡物品会保留在灵魂水晶内，回到死亡点即可，死亡会扣除生命上限，直到重新拿到灵魂水晶。"]
+			id: "4899137E0B2A6933"
+			tasks: [{
+				id: "7D357E6BDA9D63EB"
+				title: "死亡"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			description: ["虽说移动了部分结构，但这两者依旧可以发挥一定作用。"]
+			icon: {
+				Count: 1
+				id: "explorerscompass:explorerscompass"
+				tag: { }
+			}
+			id: "5BD0B9BEA48BFBA9"
+			tasks: [{
+				id: "06980D1D1DCC0C8E"
+				title: "结构与群系指南针"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "0EB8C81541A5F54A"
+			tasks: [{
+				id: "13AA30FE4406682E"
+				title: "建议不开光影等待地平线加载完成将其调整为消耗最低后可正常游玩，需分配大量运存"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "275DEA7C439D04D0"
+			tasks: [{
+				id: "1A8366850F295E5B"
+				title: "死亡后饰品会掉落在背包内，请提前预留格子"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			description: ["bro自己玩了一下，发现有点难啊，开个死亡不掉落吧，七咒只会扣生命上限了"]
+			id: "7CD042002A7EC646"
+			rewards: [{
+				command: "/gamerule keepInventory true"
+				id: "55116925C5F13AFA"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2021AB1A2C8F4577"
+				title: "降低难度"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			description: ["追朔会指向上一次死亡点，寻路指针会指向上一个灵魂水晶"]
+			id: "750ADC37DE4CFE92"
+			rewards: [
+				{
+					id: "021AAF58DA22A716"
+					item: "minecraft:recovery_compass"
+					type: "item"
+				}
+				{
+					id: "6E3ED651A50EC9EC"
+					item: "enigmaticlegacy:soul_compass"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B231583998C1325"
+				title: "死亡地点查询"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			description: ["古式地图可提供标注路径点。"]
+			icon: "antiqueatlas:empty_antique_atlas"
+			id: "4659CC3D2B1E80D2"
+			tasks: [{
+				id: "2DF37DDA43C870AE"
+				title: "关于小地图"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			description: ["前期很好用的小型交通工具，由于地形太大，飞行是最简便的交通方式之一。"]
+			icon: "immersive_aircraft:biplane"
+			id: "62A172705F5A01FD"
+			tasks: [{
+				id: "4D3AD93A99421C77"
+				title: "飞机？"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			description: ["开局可能会由bug导致没佩戴上，可在此领取佩戴"]
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "3057CACD3B2EC64D"
+			rewards: [{
+				id: "44420909301958C1"
+				item: "enigmaticlegacy:cursed_ring"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F9A5D8CB62CA3F7"
+				title: "七咒之戒"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+	]
+	title: "一些须知"
+}

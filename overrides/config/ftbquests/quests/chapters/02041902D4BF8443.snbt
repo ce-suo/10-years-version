@@ -1,0 +1,48 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "02041902D4BF8443"
+	group: "10BB6212A555998F"
+	icon: "minecraft:oak_log"
+	id: "02041902D4BF8443"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "4F65D29294F1D744"
+		rewards: [
+			{
+				auto: "enabled"
+				command: "/gamestage all"
+				id: "3011247C51464922"
+				type: "command"
+			}
+			{
+				auto: "enabled"
+				command: "/itemblacklist ban enigmaticlegacy:the_cube"
+				id: "1A3AB5343F84AE95"
+				type: "command"
+			}
+			{
+				auto: "enabled"
+				command: "/gamestage remove @a end0_stage"
+				id: "23D93077D58F9A00"
+				type: "command"
+			}
+			{
+				auto: "enabled"
+				command: "/itemblacklist ban twilightforest:uncrafting_table"
+				id: "58628F3F0259C7A7"
+				type: "command"
+			}
+		]
+		tasks: [{
+			dimension: "minecraft:overworld"
+			icon: "minecraft:oak_log"
+			id: "5DA33A45DC66AF36"
+			type: "dimension"
+		}]
+		x: 2.0d
+		y: -1.5d
+	}]
+	title: "主世界"
+}

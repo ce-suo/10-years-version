@@ -1,0 +1,266 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7238545D6905D7F5"
+	group: ""
+	icon: "yuushya:switch"
+	id: "7238545D6905D7F5"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["前期就能有一定发展，是收集矿物等自然资源的较好选择（全自动采矿机）也有一些便利小工具"]
+			icon: {
+				Count: 1
+				id: "mekanism:jetpack_armored"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 24000L
+								gasName: "mekanism:hydrogen"
+							}
+						}]
+					}
+				}
+			}
+			id: "3B511F07DB1A41FC"
+			tasks: [{
+				id: "66DA0B1CD000E080"
+				title: "通用机械"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			description: ["同样是前期便可发展的方向，一方面可增强自身素质，另一方面也是生物掉落物量产的不二人选"]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "70EABEF65052C20F"
+			tasks: [{
+				id: "4C1183A0F95C89C4"
+				title: "新生魔艺"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0BEFCE4FE77CF8D2"]
+			description: ["没有获取限制，前期最易获得高额护甲的方式，在度日如年的前期似乎成了必选项，在后期护甲与攻击也是明面上的最高数值，没有附魔导致成长性一般。"]
+			icon: "tconstruct:smeltery_controller"
+			id: "4C2D97A931AD8CF2"
+			tasks: [{
+				id: "115FFAE5D30A02CE"
+				title: "匠魂"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2A643AB4595357E2"]
+			description: ["依旧是不得不提的一环"]
+			icon: "minecraft:diamond"
+			id: "3E68F753D03D28A7"
+			tasks: [{
+				id: "609187CDAB87FE6D"
+				title: "钻石！"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			description: ["发育的最佳选择，主世界的遗迹和建筑大大减小，危险程度提高"]
+			id: "2A643AB4595357E2"
+			tasks: [{
+				id: "2EC7194EEFCECA54"
+				title: "下矿"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E68F753D03D28A7"]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "60A0B148B175047A"
+			tasks: [{
+				id: "06D7DB4E7BC88FAE"
+				title: "暮色森林的矿山含有大量原版矿物"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E68F753D03D28A7"]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			id: "2CF78DBAFE4B21A1"
+			tasks: [{
+				id: "19EFB2FF1CC4475F"
+				title: "去外太空寻找遗迹也是不错的选择"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E68F753D03D28A7"]
+			icon: "minecraft:netherrack"
+			id: "27558648D9D5E412"
+			tasks: [{
+				id: "2673312B230D7FD9"
+				title: "下界有摆脱七咒的方法？"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			icon: "minecraft:carrot"
+			id: "45C70C13D05D9479"
+			tasks: [{
+				id: "6D625168C20F7D77"
+				title: "积累更多的血量，通过持不同的食物和女神雕像"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E68F753D03D28A7"]
+			description: ["枪械和通用机械包含其中，能在前期拥有毕业级别的攻击力，缺点是较为消耗资源。"]
+			icon: "tacz:gun_smith_table"
+			id: "55965B125A88EA5B"
+			tasks: [{
+				id: "66F7BBB991DACEE4"
+				title: "科技"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3E68F753D03D28A7"]
+			description: ["新生魔艺提供自定义魔法的能力，铁魔法输出和辅助都是顶尖水准，缺点是毕业时的防御力太低。与匠魂有所联动"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:diamond_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "539BB4E2DDBACB76"
+			tasks: [{
+				id: "7BFB5037F83CBA36"
+				title: "魔法"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "3CAED0131F0D1D94"
+			tasks: [{
+				id: "3CE9F62642E1C029"
+				title: "自由发挥吧，无论是探索更多维度还是建筑养老"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E68F753D03D28A7"]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0BEFCE4FE77CF8D2"
+			tasks: [{
+				id: "6460ECFD66C1D017"
+				title: "更为接近原版的游玩方式"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0BEFCE4FE77CF8D2"]
+			icon: {
+				Count: 1
+				id: "divinerpg:awakened_halite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7CB90385495E84A1"
+			tasks: [{
+				id: "5D84FFA663595CEF"
+				title: "更多护甲，更多武器依然可以选择"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0BEFCE4FE77CF8D2"]
+			icon: "celestial_enchantments:celestial_enchanting_table"
+			id: "5303786164B9484E"
+			tasks: [{
+				id: "7FF07184BADB1954"
+				title: "附魔也有所增强"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0BEFCE4FE77CF8D2"]
+			description: ["前期相当坐牢，大部分前期难度来源于此，后期乃至大后期的收益也是相当超模，会让自己变脆但伤害有成倍的提升，也可以放弃这条路线，多多权衡利弊"]
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "2552FDC9ECCC3A33"
+			tasks: [{
+				id: "656605864DE63772"
+				title: "七咒"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3E68F753D03D28A7"]
+			description: ["大部分时间女仆和傀儡都能有很大的用处"]
+			icon: {
+				Count: 1
+				id: "modulargolems:golem_facade"
+				tag: {
+					FacadeSkin: "modulargolems:iron"
+				}
+			}
+			id: "1B9AE262316DACD3"
+			tasks: [{
+				id: "1528CA763EAA7A51"
+				title: "当个召唤师也许是个不错的选择"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+	]
+	title: "建议流程"
+}

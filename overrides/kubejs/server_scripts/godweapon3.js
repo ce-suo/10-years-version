@@ -1,0 +1,31 @@
+PlayerEvents.tick(e=>{
+    if(e.player.mainHandItem==='cataclysm:tidal_claws'){
+        if(e.player.potionEffects.getActive('minecraft:regeneration')==null){
+       e.player.potionEffects.add("minecraft:regeneration",60,2)
+        }
+    }
+    if(e.player.mainHandItem==='cataclysm:soul_render'){
+        if(e.player.potionEffects.getActive('minecraft:strength')==null){
+       e.player.potionEffects.add("minecraft:strength",60,2)
+        }
+    }
+    if(e.player.mainHandItem==='cataclysm:meat_shredder'){
+        if(e.player.potionEffects.getActive('minecraft:resistance')==null){
+       e.player.potionEffects.add("minecraft:resistance",60,2)
+        }
+    }
+    if(e.player.mainHandItem==='cataclysm:laser_gatling'){
+        if(e.player.potionEffects.getActive('minecraft:resistance')==null){
+       e.player.potionEffects.add("minecraft:resistance",60,2)
+        }
+    }
+const world ='minecraft:overworld'
+    if(e.player.level.dimension===world){
+     if(e.hasGameStage('end0_stage')){
+        e.player.potionEffects.add("minecraft:mining_fatigue",60,1)
+    }}
+    if(e.player.level.dimension===world){
+     if(e.hasGameStage('end0_stage')){
+        e.player.potionEffects.add("minecraft:weakness",60,5)
+    }}
+})

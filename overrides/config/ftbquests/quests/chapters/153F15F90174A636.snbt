@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "153F15F90174A636"
+	group: "10BB6212A555998F"
+	icon: "ad_astra:mercury_globe"
+	id: "153F15F90174A636"
+	order_index: 9
+	quest_links: [ ]
+	quests: [{
+		id: "587F994C551A07A0"
+		tasks: [{
+			id: "33CBCC23E458E83F"
+			title: "ad astra"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.5d
+	}]
+	title: "水星"
+}

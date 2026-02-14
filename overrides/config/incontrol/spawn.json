@@ -1,0 +1,729 @@
+[
+  {
+    "mob": ["minecraft:wither"],
+    "when": "onjoin",
+    "result": "default",
+    "damagemultiply": 3,
+    "speedmultiply": 2,
+    "armoradd":20,
+    "attackspeedmultiply":2,
+    "healthmultiply": 2
+  },
+  {
+    "mob": ["minecraft:ender_dragon"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2.5,
+    "damagemultiply": 4,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["alexsmobs:warped_mosco"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 8,
+    "damagemultiply": 3,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["stalwart_dungeons:awful_ghast"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 5,
+    "damagemultiply": 3,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["irons_spellbooks:dead_king"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 3,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["stalwart_dungeons:nether_keeper"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 6,
+    "damagemultiply": 3,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["cataclysm:ender_guardian"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 3,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["cataclysm:ignis"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["cataclysm:netherite_monstrosity"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["cataclysm:the_harbinger"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 3,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["cataclysm:the_leviathan"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["cataclysm:ancient_remnant"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["cataclysm:maledictus"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+    {
+    "mob": ["twilightforest:naga"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 3,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["twilightforest:lich"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 9,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["twilightforest:minoshroom"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 8,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+   {
+    "mob": ["twilightforest:minoshroom"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 8,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+     {
+    "mob": ["twilightforest:hydra"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 3,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+   {
+    "mob": ["twilightforest:knight_phantom"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["twilightforest:ur_ghast"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 3,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+   {
+    "mob": ["twilightforest:alpha_yeti"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 5,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["twilightforest:snow_queen"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 4,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+{
+    "mob": ["aether:slider"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["aether:valkyrie_queen"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["aether:sun_spirit"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["lost_aether_content:aerwhale_king"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["ancient_aether:mutated_aechor_plant"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["blue_skies:summoner"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["blue_skies:alchemist"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["blue_skies:arachnarch"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+   {
+    "mob": ["blue_skies:starlit_crusher"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["divinerpg:ancient_entity"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["divinerpg:the_watcher"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["divinerpg:densos"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+   {
+    "mob": ["divinerpg:dramix"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":15,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["divinerpg:eternal_archer"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":15,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["divinerpg:karot"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":15,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["divinerpg:king_of_scorchers"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["divinerpg:parasecta"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["divinerpg:reyvor"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["divinerpg:soul_fiend"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["divinerpg:sunstorm"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["divinerpg:termasect"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 4,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["divinerpg:twilight_demon"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":10,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["divinerpg:vamacheron"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":15,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["divinerpg:experienced_cori"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["alexscaves:luxtructosaurus"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 3,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["ars_nouveau:wilden_boss"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "dimension": "minecraft:overworld",
+      "mod": "spore",
+"when": "onjoin",
+    "result": "deny"
+  },
+  {
+    "mob": ["cataclysm:scylla"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["bosses_of_mass_destruction:lich"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 3,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["bosses_of_mass_destruction:void_blossom"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":10,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["bosses_of_mass_destruction:obsidilith"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 3,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":5,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["bosses_of_mass_destruction:gauntlet"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 3,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["legendary_monsters:frostbitten_golem"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 8,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["legendary_monsters:cloud_golem"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":10,
+    "attackspeedmultiply":2
+  },
+   {
+    "mob": ["legendary_monsters:ancient_guardian"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 5,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":10,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["legendary_monsters:posessed_paladin"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 5,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["soulsweapons:accursed_lord_boss"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["soulsweapons:draugr_boss"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":0,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["soulsweapons:night_shade"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":10,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["soulsweapons:moonknight"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":10,
+    "attackspeedmultiply":2
+  },
+   {
+    "mob": ["soulsweapons:returning_knight"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":15,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["soulsweapons:chaos_monarch"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["soulsweapons:day_stalker"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":10,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["soulsweapons:night_prowler"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 1,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":0,
+    "attackspeedmultiply":2
+  },
+   {
+    "mob": ["mowziesmobs:ferrous_wroughtnaut"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 20,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":0,
+    "attackspeedmultiply":1
+  },
+    {
+    "mob": ["mowziesmobs:umvuthi"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 5,
+    "damagemultiply": 2,
+    "speedmultiply": 1,
+    "armoradd":20,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["spore:proto"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 4,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":10,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["spore:sieger"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":0,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["spore:gazenbreacher"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":0,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["spore:hindenburg"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":0,
+    "attackspeedmultiply":2
+  },
+  {
+    "mob": ["spore:howitzer"],
+    "when": "onjoin",
+    "result": "default",
+    "healthmultiply": 2,
+    "damagemultiply": 1,
+    "speedmultiply": 1,
+    "armoradd":0,
+    "attackspeedmultiply":2
+  }
+
+]

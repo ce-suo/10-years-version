@@ -1,0 +1,24 @@
+{
+  "structureToLocate": "#minecraft:village",
+  "structuresToLocate": [
+    "#minecraft:village"
+  ],
+  "structureSearchRadius": 200,
+  "initialLocatingCount": 7,
+  "maxConcurrentRoadGeneration": 3,
+  "structureSearchTriggerDistance": 284,
+  "averagingRadius": 1,
+  "allowArtificial": true,
+  "allowNatural": true,
+  "structureDistanceFromRoad": 4,
+  "maxHeightDifference": 5,
+  "maxTerrainStability": 4,
+  "placeWaypoints": false,
+  "placeRoadFences": true,
+  "placeSwings": true,
+  "placeBenches": true,
+  "placeGloriettes": true,
+  "manualMaxHeightDifference": 10,
+  "manualMaxTerrainStability": 10,
+  "manualIgnoreWater": false
+}

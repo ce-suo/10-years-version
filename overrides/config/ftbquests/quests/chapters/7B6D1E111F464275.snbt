@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7B6D1E111F464275"
+	group: ""
+	icon: "valkyrienskies:ship_creator"
+	id: "7B6D1E111F464275"
+	order_index: 11
+	quest_links: [ ]
+	quests: [{
+		id: "3CAAF896B817DA86"
+		tasks: [{
+			id: "7D28146FF794D5F0"
+			title: "可制作载具等一系列用法，更合理的物理规则"
+			type: "checkmark"
+		}]
+		x: -1.0d
+		y: -1.0d
+	}]
+	title: "瓦尔基里"
+}

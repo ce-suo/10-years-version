@@ -1,0 +1,1462 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "boss"
+	group: ""
+	id: "73E3B01E2068CC2A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "2CBCDC84D8BB4D3C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AC96E407A5238F4"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "0B52A8A4B050774A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "67245DA5737055C8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "50EDE5FE2FC31973"
+					table_id: 3697987648628387706L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/gamestage add @a end0_stage"
+					id: "045F648D276E4EFF"
+					type: "command"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "6DFC0CC09CE69F5C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			description: ["ALEX生物中的BOSS"]
+			id: "24F0255E72D2310B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5576A7CA160F541A"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				id: "65797D41B5E90FF5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			description: ["ALEX生物中的BOSS"]
+			id: "0E5831F5C083BDED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5476DAFA196FDA41"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				id: "446F786F3D6461A2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			description: ["坚固地牢模组中的BOSS"]
+			id: "5A811321B69C65B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C88B1F02C6F4F37"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "stalwart_dungeons:nether_keeper"
+				id: "1D6F8CA9C8F07D1B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			description: ["坚固地牢模组中的BOSS"]
+			id: "2761A771AEAC5B12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51202B290765EAEC"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "stalwart_dungeons:awful_ghast"
+				id: "31D93EE2FF298481"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "79335DA77766B392"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "522384FC5D8A8100"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "7E87C6787CA60988"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "4F05B82FD2597ECA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D2FF24633DEE58F"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "144B94F2F7D9952E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			description: ["位于水星，已不在地狱"]
+			id: "56E891B0EC1E158F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13B99225373503AC"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "5A45D7D38321E964"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "161632592B9368BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F049119030A3E42"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "5D4AA0DCF9328BB6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			description: ["位于金星"]
+			id: "729556E13AE7B1F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "138B6FA56F0C74F3"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "51F468D060045FBF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "3AA5CEE0C1EBD192"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65795CA56F949A58"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "1002D34E854E2FF1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			description: ["位于火星"]
+			id: "2F05A7255BF3B972"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "285216A52F2133B5"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "3BE0EB77CA5DDE22"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			description: ["位于霜原星"]
+			id: "775DB49472FFBCE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "069719E3C93FF243"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "42C51C9454AD0F9E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			id: "79F828689766F00A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54C2B61558FC687E"
+				table_id: 3697987648628387706L
+				team_reward: false
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "5A2FFFF2F37014F8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			id: "3104964A91C099C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "250BAE192B3BE4B8"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "21BF1389EAA588FB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			id: "0256126FB5F47AFA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25EFC0EEC634EEAB"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "6DA59FF3925A6F1E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "3227E71F362B416B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66A44F773A16ED4B"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "64F67A3DF77E037B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "456C7477858242BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2980ECBB3669F6C2"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "154C924B9F91C444"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "023C7E60E31863F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36DDA04A60DD57D7"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "1947997344153231"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "567E2EF42D268D98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25204970E08E72D4"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "6AEDC7A3EFD820D0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "22C6B15E037A62AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07EFDB357CBD36C9"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "3F3446A24F0EEE6D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "6F63025AF6D3D0D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7884C2377EF7F8FC"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "aether:slider"
+				id: "199295B5262D657F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "500DEE151414FFA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B63C3D7225C3325"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "4A72F2FAA7970EC1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			id: "2DD648DF8BEF2B36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7302C3B3ED3FC70E"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "aether:sun_spirit"
+				id: "5E24D550132F9525"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			id: "02C9D1485B6A17D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4709363EFFCF780C"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "lost_aether_content:aerwhale_king"
+				id: "24F36BDD4B7ACD52"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "5029A461DE185AAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B799897909867D5"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "ancient_aether:mutated_aechor_plant"
+				id: "6412E2E2E604F0A7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "11D1E22A904EDB17"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41B709A7EBDA1B14"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "blue_skies:summoner"
+				id: "63F0805BBE094C3A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "2BCB66DC44EF7E97"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F7FFAC470440887"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				id: "4343B4BA1F46148F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "07F6C80DF2530BAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36DC3B33834C068A"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				id: "7F2A64C7DBEF68E5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "1313A79444E73FE0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73B80ED3DECED229"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				id: "61E316D1EE664DE6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			id: "2B4D5F45D332CDAB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FA7522D25DA26BD"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:ancient_entity"
+				id: "4AB5BEBAC3D15BD0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "0C34E253BAA54F6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FBE284FDE2BC69E"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:the_watcher"
+				id: "2E472ED15DF2F7F5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "34270539816E6C03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "412A573ACA2C073E"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:densos"
+				id: "45794D371CF3F38C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "74CB49C59A661FEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "159123E1565B79C4"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:dramix"
+				id: "7426EE60EC609BFE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "35B24483965A061A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53F9D68042EBEBB9"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:eternal_archer"
+				id: "42E7EAD71B022462"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "61064848BC737C41"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7333E5E900412537"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:karot"
+				id: "793FDDA1750AC0FD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "7AAF98D4D6E793A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F9B4423989C2E97"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:king_of_scorchers"
+				id: "3680B1ACC25FEA5F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "178736A5AB3141B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19C12F8A73575510"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:parasecta"
+				id: "175C02DEAE5BD0ED"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			id: "737A1948FD0ED747"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B023DD82C299BC2"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:reyvor"
+				id: "4B2DA8CC9A3CD30D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "45BCB5CC60119B0D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A571A1292ED3A75"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:soul_fiend"
+				id: "497F6BAD739AAAA4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			id: "6D71DB34B746FC0A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B4917B16D2DA4ED"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:sunstorm"
+				id: "5E9DA293108A252D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "5E7687F684A3C19B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10F7F8AD17C09F58"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:termasect"
+				id: "7220506CF24242F3"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "072C6BD1FC83ACCC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "244217157777EE13"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:twilight_demon"
+				id: "30BD8AC63616CD46"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "41F797E167E90319"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A8C673B6BC9F913"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:vamacheron"
+				id: "3BBB0077D6F1D1CD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "41EC997140035768"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A110EA9C10A42B9"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:experienced_cori"
+				id: "2147F06B150E5AF4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "0F6DA2DD6F798AE9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1469D3228F6566B6"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:hive_queen"
+				id: "34768C5A6138FB51"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			id: "16DB02CBC4ED3D32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04B73CD4600DDCA3"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:karos"
+				id: "1BD9F06F588189E4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			id: "5B275D6781F2EBF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0903A11C1B578185"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:lady_luna"
+				id: "63322ADBFE90BBC5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			id: "42F32EDE70B9ED2A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6673C64DA4D552A5"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:quadro"
+				id: "75AC6ECC716C86C4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "0F554C04692F10C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "403D40BC01F9BED6"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:raglok"
+				id: "3CFE685BF4C90A34"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "049CBBC8FC924DA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C2B6546D08C4FBC"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "divinerpg:wreck"
+				id: "05E8BB1E3FC39C93"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "55BAF726309AEF71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E7ACDD43BE2954F"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				id: "12EEA17C3367DF51"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			id: "74549DFEBF1B5F60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B02B160386920CE"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				id: "00A1CDFBAD2165F8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "480C4410DAF8837B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C06DBFCAA7CBFEA"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "spore:sieger"
+				id: "7174995D015A1B6A"
+				type: "kill"
+				value: 15L
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			id: "297A3972F8D01E42"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01A1ABA32B66AA28"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "spore:gazenbreacher"
+				id: "4754F756B85D6589"
+				type: "kill"
+				value: 15L
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			id: "667A308C025D9F33"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BD4BC9E2E105A53"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "spore:hindenburg"
+				id: "43CFE400AAD89812"
+				type: "kill"
+				value: 15L
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			id: "1DC5CDDD78746073"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B483098BEA3B8AE"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "spore:howitzer"
+				id: "0DF02A7B2AD0690E"
+				type: "kill"
+				value: 15L
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			id: "03793F29FAD07590"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5196E3D755D576F6"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "224143B17288DCE3"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			description: ["位于霜原星"]
+			id: "7FCC69CD454406A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "245B0866B8A18970"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				id: "7D2457670B09E35E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			description: ["位于火星"]
+			id: "7882764447DA1CC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25E12357D76B7771"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				id: "2E802DBDBB86A168"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "2A69340EFA215E6B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3014C6119E7C7619"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "1A693B2A20219B86"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "1F6917997483DC4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E1CC26916E4BA24"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "0512B8EE6A8ABD12"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			description: ["在寒界"]
+			id: "2C5E7D207A0EB023"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "007D1FCD1688BF3E"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:frostbitten_golem"
+				id: "58937CCBA1286F2B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			description: ["在恒昼之地"]
+			id: "7C32FD0BB23CB2A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65BF37973EC7D759"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:cloud_golem"
+				id: "2C794EF69F60DBC7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			description: ["在月球"]
+			id: "5E89D946C2D33C3C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76C27D46A2132FC6"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:ancient_guardian"
+				id: "0FB13BE0B48F2CD1"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			description: ["在恒晓之地"]
+			id: "103FE6FA41DA8EA2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42F4E63F217D0352"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "legendary_monsters:posessed_paladin"
+				id: "44708570866944FB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			id: "50EE2C78324FA336"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3066F4D16FA47589"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "soulsweapons:accursed_lord_boss"
+				id: "2447166D51AE555C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			description: ["击败古英雄出现"]
+			id: "135BF6F316A043EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5902D352F60261B3"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "soulsweapons:night_shade"
+				id: "485206278CF1266A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			id: "3802754B5C37DF56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DD0EA867B3BF5D5"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "soulsweapons:moonknight"
+				id: "131998B3ABDFBD73"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "648BA0E9443A0917"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1454100D9B956D5C"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "soulsweapons:returning_knight"
+				id: "3A12FCD595FA2DC5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			id: "7AEBA60FA864F213"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E4B209D4400BD6B"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "soulsweapons:chaos_monarch"
+				id: "307D25A211D90AA8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			id: "5DE219C8BA2C6DDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EF8DA59C9304244"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "soulsweapons:day_stalker"
+				id: "281B55F24526C929"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			id: "655E531477E028D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44892CD70C6FC1FE"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "soulsweapons:night_prowler"
+				id: "6C03D43E58E3520F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			id: "45B6AD29F41E7399"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FDC92148B13F152"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "366BED118C309AEC"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			id: "2C247287E04CC149"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21631486EB8EEF38"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "797F28BFB4402F2D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			id: "4A942E61D7281B92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EFA2CF8834DE006"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "spore:proto"
+				id: "76CD21E359CEFD76"
+				type: "kill"
+				value: 15L
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"5029A461DE185AAF"
+				"161632592B9368BA"
+				"5A811321B69C65B7"
+				"1F6917997483DC4D"
+				"2C247287E04CC149"
+				"3227E71F362B416B"
+				"729556E13AE7B1F2"
+				"41F797E167E90319"
+				"22C6B15E037A62AB"
+				"2CBCDC84D8BB4D3C"
+				"3AA5CEE0C1EBD192"
+				"16DB02CBC4ED3D32"
+				"61064848BC737C41"
+				"5E7687F684A3C19B"
+				"11D1E22A904EDB17"
+				"775DB49472FFBCE4"
+				"45BCB5CC60119B0D"
+				"42F32EDE70B9ED2A"
+				"74CB49C59A661FEA"
+				"796A59BC4C6C05FC"
+				"655E531477E028D5"
+				"6D71DB34B746FC0A"
+				"79F828689766F00A"
+				"3104964A91C099C3"
+				"02C9D1485B6A17D0"
+				"456C7477858242BC"
+				"07F6C80DF2530BAF"
+				"7AAF98D4D6E793A5"
+				"2761A771AEAC5B12"
+				"0F554C04692F10C0"
+				"03793F29FAD07590"
+				"1313A79444E73FE0"
+				"5DE219C8BA2C6DDE"
+				"7FCC69CD454406A4"
+				"50EE2C78324FA336"
+				"55BAF726309AEF71"
+				"072C6BD1FC83ACCC"
+				"023C7E60E31863F0"
+				"3802754B5C37DF56"
+				"5B275D6781F2EBF9"
+				"4F05B82FD2597ECA"
+				"67245DA5737055C8"
+				"500DEE151414FFA5"
+				"79335DA77766B392"
+				"049CBBC8FC924DA5"
+				"35B24483965A061A"
+				"7AEBA60FA864F213"
+				"7C32FD0BB23CB2A2"
+				"6F63025AF6D3D0D1"
+				"2BCB66DC44EF7E97"
+				"2DD648DF8BEF2B36"
+				"56E891B0EC1E158F"
+				"135BF6F316A043EE"
+				"0C34E253BAA54F6C"
+				"178736A5AB3141B9"
+				"0256126FB5F47AFA"
+				"41EC997140035768"
+				"5E89D946C2D33C3C"
+				"74549DFEBF1B5F60"
+				"7882764447DA1CC7"
+				"24F0255E72D2310B"
+				"0F6DA2DD6F798AE9"
+				"0E5831F5C083BDED"
+				"2B4D5F45D332CDAB"
+				"2F05A7255BF3B972"
+				"45B6AD29F41E7399"
+				"648BA0E9443A0917"
+				"737A1948FD0ED747"
+				"567E2EF42D268D98"
+				"2C5E7D207A0EB023"
+				"34270539816E6C03"
+				"103FE6FA41DA8EA2"
+				"2A69340EFA215E6B"
+				"480C4410DAF8837B"
+				"297A3972F8D01E42"
+				"667A308C025D9F33"
+				"1DC5CDDD78746073"
+				"4A942E61D7281B92"
+			]
+			id: "4BB96F50BD12B097"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a end0_stage"
+				id: "7D384ABC01AD5CCB"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2B71100CD0A4DE4C"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			id: "796A59BC4C6C05FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40AD692832199180"
+				table_id: 3697987648628387706L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "traveloptics:the_nightwarden"
+				id: "00CB94AFC1F7A3D6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+	]
+	subtitle: [
+		"本包boss难度较大，请做好准备再挑战"
+		"除月亮女士外无明显难易区分"
+	]
+	title: "BOSS"
+}

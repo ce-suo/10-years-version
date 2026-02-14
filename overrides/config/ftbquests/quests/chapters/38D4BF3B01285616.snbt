@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "38D4BF3B01285616"
+	group: "10BB6212A555998F"
+	icon: "blue_skies:blue_journal"
+	id: "38D4BF3B01285616"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "385C1408C7B9A7FB"
+		tasks: [{
+			id: "3105B306F9682CD4"
+			title: "添加了更多结构与BOSS"
+			type: "checkmark"
+		}]
+		x: -2.5d
+		y: -0.5d
+	}]
+	title: "蔚蓝浩空"
+}

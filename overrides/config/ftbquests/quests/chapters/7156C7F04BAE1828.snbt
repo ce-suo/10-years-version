@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7156C7F04BAE1828"
+	group: ""
+	icon: "celestial_enchantments:celestial_enchanting_table"
+	id: "7156C7F04BAE1828"
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		id: "0EE5302C32D256DE"
+		tasks: [{
+			id: "7C3373865B35410F"
+			title: "星月附魔、奇异附魔、附魔诅咒"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: -1.0d
+	}]
+	title: "附魔"
+}

@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "02C56BC96EF404F9"
+	group: ""
+	icon: "enigmaticlegacy:cursed_ring"
+	id: "02C56BC96EF404F9"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		icon: "enigmaticlegacy:the_cube"
+		id: "52479317634DE81C"
+		tasks: [{
+			id: "17AA4C59FF4D454D"
+			title: "非欧立方已被禁用"
+			type: "checkmark"
+		}]
+		x: -4.0d
+		y: -0.5d
+	}]
+	title: "神秘遗物"
+}

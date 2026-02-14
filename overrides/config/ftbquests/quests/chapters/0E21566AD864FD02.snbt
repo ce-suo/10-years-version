@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0E21566AD864FD02"
+	group: ""
+	icon: {
+		Count: 1
+		id: "farmersdelight:netherite_knife"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0E21566AD864FD02"
+	order_index: 13
+	quest_links: [ ]
+	quests: [{
+		id: "26BFD2275F695839"
+		tasks: [{
+			id: "1EFBADCF2F8096CA"
+			title: "农夫乐事、森罗等一系列"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: -1.0d
+	}]
+	title: "美食"
+}

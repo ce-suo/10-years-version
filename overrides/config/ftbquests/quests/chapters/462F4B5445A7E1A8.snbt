@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "462F4B5445A7E1A8"
+	group: ""
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_4_rocket"
+		tag: { }
+	}
+	id: "462F4B5445A7E1A8"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "2FBAE8AA369A238F"
+		tasks: [{
+			id: "0F9648CC2E5229A0"
+			title: "ad astra"
+			type: "checkmark"
+		}]
+		x: -1.5d
+		y: -1.5d
+	}]
+	title: "航天"
+}

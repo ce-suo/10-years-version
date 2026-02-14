@@ -1,0 +1,3844 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "271DBE4E22CB29EA"
+	group: ""
+	id: "271DBE4E22CB29EA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "59244C4547741736"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 1_stage"
+				id: "184E0B57B96B1CCE"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "6A1ACC4124951C5E"
+				item: "confluence:ankh_charm"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "5CAE37C26D3CCF04"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 2_stage"
+				id: "7E20C07F84F0D380"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "12DFE2AD7EA76E8A"
+				item: "confluence:hero_shield"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "785FA6E0DB05C494"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 0_stage"
+				id: "6C83A661218E4051"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "0D718084B90C306C"
+				item: {
+					Count: 1
+					id: "confluence:terraspark_boots"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "17C9E1C20441B2F5"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 3_stage"
+				id: "204F12D3104EB0BB"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "6893F8D240440C47"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:dragonskin_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "473A77E6CBF22DD1"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 4_Stage"
+				id: "0774FF5B50859E09"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "259B759260E231D5"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "1F16B42C5E91B599"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 5_stage"
+				id: "72D27379C74BEB5B"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "27AEEA54656BBBDF"
+				item: "mekanism:mekasuit_helmet"
+				match_nbt: true
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			id: "6D0C978913872B42"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 6_stage"
+				id: "2237795E08F3281D"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "2B4222A7D8AFD1A6"
+				item: "mekanism:mekasuit_bodyarmor"
+				match_nbt: true
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "593C7A7491CE5C2F"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 7_stage"
+				id: "756C1CA21797D95F"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0EAB7B757E3C3323"
+				item: "mekanism:mekasuit_pants"
+				match_nbt: true
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			id: "05D505B345147827"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 8_stage"
+				id: "106836B54DBEC510"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "6F58B73ACCA21586"
+				item: "mekanism:mekasuit_boots"
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "384BD88E43DE2579"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 9_stage"
+				id: "31396E3A306D3E43"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "710665CC78B7AD34"
+				item: "mekanism:module_energy_unit"
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "317B509C701315CD"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 10_stage"
+				id: "1BCF2078F3BDF39F"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "19DC87CFB30C1EFB"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "694036F34433F2B9"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 11_stage"
+				id: "6D3AAB153776AA9D"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "1E6A2A0945E522A3"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "6657D501FAF81F5C"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 12_stage"
+				id: "7B918AA0D823DEAC"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "68644FB084CAE6CA"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			id: "0ED0FE9734D4B5C3"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 13_stage"
+				id: "250E20C37223D91A"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "140362F54E26B2F4"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "687E0594A4FD47CA"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 14_stage"
+				id: "30832A8964D2AC9E"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "7E3AD3A466276AA7"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			id: "2FEC480393194522"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 15_stage"
+				id: "76CB771944198C16"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "7A7A11B589E44C6A"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			id: "72B1904558E6E2F8"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 16_stage"
+				id: "2385EFCD63AA88C7"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "2C3D76B55F79BFEF"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "64490314293EDD30"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 17_stage"
+				id: "78AE0607672DE95C"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "0A298EC92E6781D1"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			description: ["增加持有者最大生命值，且每攻击一次回复饱食度"]
+			id: "50AE0832435193A5"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 23_stage"
+				id: "77CD8E5C6BC23839"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "3EEB4867C7451668"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			description: ["增加护甲值以及盔甲韧性"]
+			id: "37CCE58BBEA5C7F8"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 22_stage"
+				id: "35E7EBC5E47914F1"
+				silent: true
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "00129D019C873376"
+				item: "cataclysm:gauntlet_of_guard"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["50AE0832435193A5"]
+			description: ["炼狱锻锤的进化"]
+			id: "76946665BFE188CA"
+			tasks: [{
+				id: "3A53CA052A7A4CF8"
+				item: {
+					Count: 1
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37CCE58BBEA5C7F8"]
+			description: ["守卫者护手的一级进化"]
+			id: "25DC3153F3C2ACE2"
+			tasks: [{
+				id: "557942646E554145"
+				item: "cataclysm:gauntlet_of_bulwark"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25DC3153F3C2ACE2"]
+			description: ["守卫者护手的二级进化"]
+			id: "463B5F6F79D0B7D8"
+			tasks: [{
+				id: "6567567B04F22653"
+				item: "cataclysm:gauntlet_of_maelstrom"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			description: ["攻击概率吸血，会对敌人施加炽热印记"]
+			id: "091665E210D8D05D"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 18_stage"
+				id: "01FB421B812B5E05"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "3E69782C736540F1"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			description: ["升级后会发射追踪箭，并提供飞行能力"]
+			id: "7D5E1097AD6A8DFD"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 19_stage"
+				id: "657230AE1B009FFD"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "15EF6639CF7757B9"
+				item: "cataclysm:cursed_bow"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["15EF6639CF7757B9"]
+			description: ["持有可飞行，射出箭带有追踪"]
+			id: "1864FC2420094E6D"
+			tasks: [{
+				id: "18E380537671409A"
+				item: "cataclysm:wrath_of_the_desert"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			description: ["高伤害，高机动"]
+			id: "4CB9EB2F96D270BE"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 20_stage"
+				id: "474ABFC25F494DAC"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "25C955401BD3F0CB"
+				item: "cataclysm:soul_render"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			description: ["持有时获得抗性提升三"]
+			id: "590A71F900900B55"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 21_stage"
+				id: "764915A03CDD3C32"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "32188716F555EC12"
+				item: "cataclysm:meat_shredder"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			description: ["持有时获得抗性提升三"]
+			id: "4E9FB3D9B9E8C787"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 24_stage"
+				id: "6B90C295C035099D"
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "7C0CE5750842222E"
+				item: {
+					Count: 1
+					id: "cataclysm:laser_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			description: ["持有时获得生命恢复三效果"]
+			id: "12970F17D69BB385"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 25_stage"
+				id: "12C98593C395D97E"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "0DAA3AE06CDBD72D"
+				item: "cataclysm:tidal_claws"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "09E0132DB88D7942"
+			tasks: [{
+				id: "694ED478CF226FEF"
+				item: {
+					Count: 1
+					id: "simplyswords:brimstone_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "11B0768EB31BB0EF"
+			tasks: [{
+				id: "0992EE4587E854CC"
+				item: {
+					Count: 1
+					id: "simplyswords:watcher_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "6484D99D4576C20E"
+			tasks: [{
+				id: "46C7718698F143DA"
+				item: {
+					Count: 1
+					id: "simplyswords:storms_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "3048FA2E8C429818"
+			tasks: [{
+				id: "2F281746833AA618"
+				item: {
+					Count: 1
+					id: "simplyswords:stormbringer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "27C8F646C25CE7D6"
+			tasks: [{
+				id: "29A9F92A19C8498E"
+				item: {
+					Count: 1
+					id: "simplyswords:bramblethorn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "29AC7B940BE6FF25"
+			tasks: [{
+				id: "031ADDDF718508C5"
+				item: {
+					Count: 1
+					id: "simplyswords:watching_warglaive"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "08ED0ED2B58E574F"
+			tasks: [{
+				id: "7B210ABB2CF647E1"
+				item: {
+					Count: 1
+					id: "simplyswords:toxic_longsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "754D8494D29B187C"
+			tasks: [{
+				id: "3CAD51863A54AE60"
+				item: {
+					Count: 1
+					id: "simplyswords:emberblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "61363DBC5D611F98"
+			tasks: [{
+				id: "564EC621AD405C4D"
+				item: {
+					Count: 1
+					id: "simplyswords:hearthflame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "6EACF498FF433FAA"
+			tasks: [{
+				id: "356B530B297CF5DD"
+				item: {
+					Count: 1
+					id: "simplyswords:soulkeeper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "10AD5F23909EA644"
+			tasks: [{
+				id: "56C10AE88155666F"
+				item: {
+					Count: 1
+					id: "simplyswords:twisted_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "397955F9F2445AA1"
+			tasks: [{
+				id: "2440D08EDEE9955C"
+				item: {
+					Count: 1
+					id: "simplyswords:soulstealer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "68D72FFEFC2A2E47"
+			tasks: [{
+				id: "6DC48544648A0733"
+				item: {
+					Count: 1
+					id: "simplyswords:soulrender"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "184C2D4DCD325CC8"
+			tasks: [{
+				id: "726B6C6BBD464E6C"
+				item: {
+					Count: 1
+					id: "simplyswords:soulpyre"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "0BDD97EA0F5413D1"
+			tasks: [{
+				id: "33F87D1BB987E4FD"
+				item: {
+					Count: 1
+					id: "simplyswords:frostfall"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "5014E4AF1E28AA84"
+			tasks: [{
+				id: "21B23893FA20E20B"
+				item: {
+					Count: 1
+					id: "simplyswords:molten_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "3FDA5ECE602A944A"
+			tasks: [{
+				id: "4CCFD3A1EC7C6A78"
+				item: {
+					Count: 1
+					id: "simplyswords:livyatan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "67FEADF3031964DC"
+			tasks: [{
+				id: "355DB3152E971148"
+				item: {
+					Count: 1
+					id: "simplyswords:icewhisper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "69832E246AE22B83"
+			tasks: [{
+				id: "34FDE7F26960C5B0"
+				item: {
+					Count: 1
+					id: "simplyswords:arcanethyst"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "7E21ACBB841DD5F9"
+			tasks: [{
+				id: "7C7B1012E3D5BB36"
+				item: {
+					Count: 1
+					id: "simplyswords:thunderbrand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "5F3A145311FA3E9A"
+			tasks: [{
+				id: "544E02561094D221"
+				item: {
+					Count: 1
+					id: "simplyswords:mjolnir"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "1FE99AA09561FAB6"
+			tasks: [{
+				id: "5E76714594A78264"
+				item: {
+					Count: 1
+					id: "simplyswords:slumbering_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1FE99AA09561FAB6"]
+			id: "7AA70850E39F2FE8"
+			tasks: [{
+				id: "48C73CA0A2B39B13"
+				item: {
+					Count: 1
+					id: "simplyswords:waking_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["48C73CA0A2B39B13"]
+			id: "54895C7BC0A097DF"
+			tasks: [{
+				id: "46EF32144EA402EF"
+				item: {
+					Count: 1
+					id: "simplyswords:awakened_lichblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "45D9C7F9711B3CB9"
+			tasks: [{
+				id: "4A42E08698226BCF"
+				item: {
+					Count: 1
+					id: "simplyswords:shadowsting"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "064786598F5B4CD7"
+			tasks: [{
+				id: "25757ADA192514C0"
+				item: {
+					Count: 1
+					id: "simplyswords:dormant_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["064786598F5B4CD7"]
+			id: "0100648740F3C876"
+			tasks: [{
+				id: "78150CAA236C9778"
+				item: {
+					Count: 1
+					id: "simplyswords:righteous_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["064786598F5B4CD7"]
+			id: "5CA0A04BE61D35B5"
+			tasks: [{
+				id: "1B6C0B7ED77223CE"
+				item: {
+					Count: 1
+					id: "simplyswords:tainted_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0100648740F3C876"]
+			id: "01C5310559F2A191"
+			tasks: [{
+				id: "34D1C9E1BE29FD6C"
+				item: {
+					Count: 1
+					id: "simplyswords:sunfire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5CA0A04BE61D35B5"]
+			id: "125DCE5C04EE92AF"
+			tasks: [{
+				id: "07DC3B49BE07A63B"
+				item: {
+					Count: 1
+					id: "simplyswords:harbinger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "3BB41DA61B56E1ED"
+			tasks: [{
+				id: "436AA9A7AD6DE9EA"
+				item: {
+					Count: 1
+					id: "simplyswords:whisperwind"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "50F9ED925BAF80C3"
+			tasks: [{
+				id: "6F2B7191C7B5EF1B"
+				item: {
+					Count: 1
+					id: "simplyswords:emberlash"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "238FCC21F40FE710"
+			tasks: [{
+				id: "41C53D2466F884A1"
+				item: {
+					Count: 1
+					id: "simplyswords:waxweaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "4F54CE67BEA6DCA7"
+			tasks: [{
+				id: "15BDD7C0DEB732DA"
+				item: {
+					Count: 1
+					id: "simplyswords:hiveheart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "77B1218539E83156"
+			tasks: [{
+				id: "449904A641F71F95"
+				item: {
+					Count: 1
+					id: "simplyswords:stars_edge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "575BC393592DDE9F"
+			tasks: [{
+				id: "22F4FA50CA6D6FA0"
+				item: {
+					Count: 1
+					id: "simplyswords:wickpiercer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "59A6005B2FCBC601"
+			tasks: [{
+				id: "0168B01EBC17AD9E"
+				item: {
+					Count: 1
+					id: "simplyswords:tempest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "5DB6D27CD9EC8005"
+			tasks: [{
+				id: "4E46E23748F34A1D"
+				item: {
+					Count: 1
+					id: "simplyswords:flamewind"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "2E44CEDDF3847C11"
+			tasks: [{
+				id: "26CD1058E7DB771A"
+				item: {
+					Count: 1
+					id: "simplyswords:ribboncleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "22060A1AA408EF6A"
+			tasks: [{
+				id: "78A2F6CA880E6F97"
+				item: {
+					Count: 1
+					id: "simplyswords:decaying_relic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["22060A1AA408EF6A"]
+			id: "59F21E6A7EB6BAA8"
+			tasks: [{
+				id: "52C32C0B3F1D7691"
+				item: {
+					Count: 1
+					id: "simplyswords:magiscythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["22060A1AA408EF6A"]
+			id: "31D904DE3CB003AA"
+			tasks: [{
+				id: "024E19B581B76B98"
+				item: {
+					Count: 1
+					id: "simplyswords:magispear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["78A2F6CA880E6F97"]
+			id: "5748411808FB0537"
+			tasks: [{
+				id: "7197BEE9B82B6B8B"
+				item: {
+					Count: 1
+					id: "simplyswords:magiblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["22060A1AA408EF6A"]
+			id: "37EF942053673F4F"
+			tasks: [{
+				id: "0705E1ACCA463D81"
+				item: {
+					Count: 1
+					id: "simplyswords:enigma"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			description: ["没有只获得一次限制，但有耐久且非常难获得，可用符文石板修复"]
+			id: "578CE8453E4A972A"
+			tasks: [{
+				id: "7CBB1BFA6081799E"
+				item: {
+					Count: 1
+					id: "simplyswords:caelestis"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			id: "4584A0D3547AF538"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 26_stage"
+				id: "48087AC675C35AA4"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "44F8382E558582BE"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			id: "3E98BE84F2479C9B"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 27_stage"
+				id: "317F42C9EC311B7C"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "69E8D6AB78994AF6"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			id: "3F74543DC475DA1F"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 28_stage"
+				id: "18C35E251B5CD7A6"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "383579587631CB21"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.5d
+		}
+		{
+			id: "5D90423D0AEBDB9C"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 29_stage"
+				id: "52D21A424DCA9E87"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "36A3F399624BE186"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.5d
+		}
+		{
+			id: "32BFC481E839E8E3"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 30_stage"
+				id: "70F2C0B464EB08D5"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "3B3F58F18ED59A28"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:eldritch_pan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 11.5d
+		}
+		{
+			id: "7C90040EFB2BB948"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 31_stage"
+				id: "40AB8FD115E5BBB3"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "34406F76162F0AF8"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:infernal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			id: "3E5171F4E37E32A7"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 32_stage"
+				id: "3B92B2E5FA67D780"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "446751E5784A9285"
+				item: "enigmaticaddons:forgotten_ice"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.0d
+		}
+		{
+			id: "0A052B625CFE74F1"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 33_stage"
+				id: "7BA09C1E42DACFC2"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "322E8DB6D1939DE9"
+				item: "enigmaticaddons:revival_leaf"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			id: "0B8E1734C9A4A80E"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 34_stage"
+				id: "40EF5B0C1E02714D"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "7ABF43CC7FDDB901"
+				item: "enigmaticaddons:lost_engine"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.0d
+		}
+		{
+			id: "06FA874B610339DC"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 41_stage"
+				id: "6EAB821F8AD04BA6"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "7CDB3DBB2B1590F1"
+				item: "enigmaticaddons:etherium_core"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			id: "4DE89FA1984CEC5F"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 35_stage"
+				id: "2944703693164D8D"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "1EBC5B2CAC813B8F"
+				item: "enigmaticlegacy:golem_heart"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 13.0d
+		}
+		{
+			id: "78E4A247144E0312"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 36_stage"
+				id: "6264AEDC512F17F8"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "50E69D97C46AE657"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 13.0d
+		}
+		{
+			id: "680515765AA1FFF5"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 37_stage"
+				id: "4795B3FA59373A31"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "54FE1CDE8A1868F0"
+				item: "enigmaticlegacy:blazing_core"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 13.0d
+		}
+		{
+			id: "160247289F4A705C"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 38_stage"
+				id: "3CC373474C7B8730"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "22DFAFB3DB5B8337"
+				item: "enigmaticlegacy:void_pearl"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			id: "3DE43C9E8940E4E0"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 39_stage"
+				id: "061CE2D920625ABC"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "2D4603254B1027C4"
+				item: "enigmaticlegacy:ocean_stone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.5d
+		}
+		{
+			id: "0E999E90CF3F438A"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 40_stage"
+				id: "73A807934098EEC5"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "5A60FAE27938831F"
+				item: "enigmaticlegacy:angel_blessing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.5d
+		}
+		{
+			id: "36345CF516CBD902"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 42_stage"
+				id: "1C288FD94B0F3E9A"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "52827D4EDAD9A84F"
+				item: {
+					Count: 1
+					id: "relics:reflection_necklace"
+					tag: {
+						abilities: {
+							explode: {
+								points: 0
+								stats: {
+									capacity: 46.04863d
+									damage: 0.33245d
+									stun: 0.12442d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.5d
+		}
+		{
+			id: "12B94F5EDCE018A5"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 43_stage"
+				id: "0CC3BE17B812B822"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "5A9D088D19576C33"
+				item: {
+					Count: 1
+					id: "relics:rage_glove"
+					tag: {
+						abilities: {
+							phlebotomy: {
+								points: 0
+								stats: {
+									attack_speed: 0.00805d
+									heal: 1.6E-4d
+									movement_speed: 0.02385d
+								}
+							}
+							rage: {
+								points: 0
+								stats: {
+									dealt_damage: 0.06006d
+									duration: 2.78066d
+									incoming_damage: 0.04015d
+								}
+							}
+							spurt: {
+								points: 0
+								stats: {
+									cooldown: 16.20283d
+									damage: 0.17372d
+									distance: 4.99111d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.5d
+		}
+		{
+			id: "39B24EB1D8985AEB"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 44_stage"
+				id: "15775D9E4D9FD2D3"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "67ADF6BA953957F7"
+				item: {
+					Count: 1
+					id: "relics:arrow_quiver"
+					tag: {
+						abilities: {
+							agility: {
+								points: 0
+								stats: {
+									modifier: 1.0d
+								}
+							}
+							leap: {
+								points: 0
+								stats: {
+									cooldown: 14.29167d
+									duration: 5.23052d
+									multiplier: 0.46602d
+								}
+							}
+							rain: {
+								points: 0
+								stats: {
+									delay: 0.95073d
+									duration: 12.6414d
+									radius: 4.47265d
+								}
+							}
+							receptacle: {
+								points: 0
+								stats: {
+									slots: 3.80232d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 14.5d
+		}
+		{
+			id: "1BDA4C7B61B5343F"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 45_stage"
+				id: "7931D83157FB46C2"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "67D4702C27F0B3D5"
+				item: {
+					Count: 1
+					id: "twilightforest:diamond_minotaur_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 14.5d
+		}
+		{
+			id: "5B23DE2596E36FC1"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 46_stage"
+				id: "3835CC0567A61757"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "45CD803FA885B9D0"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_helmet_dragon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 14.5d
+		}
+		{
+			id: "0BC22C66641BA6E2"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 47_stage"
+				id: "4176C47922D1C38D"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "08D09C900C7DCEDC"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_chestplate_dragon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			id: "2E5B06C4BDD9739C"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 48_stage"
+				id: "5490190B57490652"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "3663448ED0B326E1"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_leggings_dragon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			id: "157352B7D0C7A36C"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 49_stage"
+				id: "7051908B8CD378DD"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "2FEC7835D52BA8F3"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_boots_dragon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			id: "355C4092ED8A2B3E"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 50_stage"
+				id: "30F72867AE266B46"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "68715720B2656C65"
+				item: {
+					Count: 1
+					id: "divinerpg:awakened_halite_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 16.0d
+		}
+		{
+			id: "39BC3E0F4DD3F10D"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 51_stage"
+				id: "320B96F4DF0810EB"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "0E30C5A7DD12A8C0"
+				item: {
+					Count: 1
+					id: "divinerpg:awakened_halite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 16.0d
+		}
+		{
+			id: "30EB9D8EA5D49D51"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 52_stage"
+				id: "2E3336DBCE7B98AE"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "44649034955C9436"
+				item: {
+					Count: 1
+					id: "divinerpg:awakened_halite_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 16.0d
+		}
+		{
+			id: "3D63CBDDA6BD94AA"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 53_stage"
+				id: "568A0509FDE37BE4"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "7C8B9D75321ED9E0"
+				item: {
+					Count: 1
+					id: "divinerpg:awakened_halite_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 16.0d
+		}
+		{
+			id: "33A1A17100044209"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 54_stage"
+				id: "325792B8FDF31FEC"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "0572B750F247CEB2"
+				item: "iceandfire:hydra_heart"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 16.0d
+		}
+		{
+			id: "25AE657E7B2056DA"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 55_stage"
+				id: "31CDCA636D79FA6F"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "771191E852804F7E"
+				item: {
+					Count: 1
+					id: "alexscaves:extinction_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.5d
+		}
+		{
+			id: "67CFED09371262F8"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 56_stage"
+				id: "7EB6E0DDC15F7E15"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "68B378B6AE050E4D"
+				item: {
+					Count: 1
+					id: "legendary_monsters:the_great_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 17.5d
+		}
+		{
+			id: "43D94CC711888A7E"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 57_stage"
+				id: "3BE9D13E1A615B22"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "4C247C1102CADA9D"
+				item: {
+					Count: 1
+					id: "legendary_monsters:wand_of_clouds"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 17.5d
+		}
+		{
+			id: "402B50A173A9ABD7"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 58_stage"
+				id: "0D7F504ED7AFE9CD"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "6EDE0A0D0E073F55"
+				item: {
+					Count: 1
+					id: "legendary_monsters:axe_of_lightning"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 17.5d
+		}
+		{
+			id: "36ED124139C83C3E"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 59_stage"
+				id: "251EFBE67CA4260A"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "12D03CFAF08524B9"
+				item: {
+					Count: 1
+					id: "legendary_monsters:monstrous_anchor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 17.5d
+		}
+		{
+			id: "1D15611A9745E87B"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 60_stage"
+				id: "3678A0D6EFA98A7D"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "58D7FF5024D4DFAC"
+				item: {
+					Count: 1
+					id: "legendary_monsters:soul_great_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 17.5d
+		}
+		{
+			id: "5FB8CE66509111ED"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 61_stage"
+				id: "0E4C659AF0CDB378"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "21466087870F195A"
+				item: {
+					Count: 1
+					id: "soulsweapons:chaos_crown"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 17.5d
+		}
+		{
+			id: "43F2104F0F68B620"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 62_stage"
+				id: "180D116F96DE7958"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "17E239B43F7B2D2C"
+				item: {
+					Count: 1
+					id: "soulsweapons:arkenplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 17.5d
+		}
+		{
+			id: "61FAE95D9808A6E9"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 63_stage"
+				id: "3A99C1571EADCAAE"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "23268F2658C7CFBE"
+				item: {
+					Count: 1
+					id: "soulsweapons:withered_chest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			id: "4608D53F3A127CEB"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 64_stage"
+				id: "1998E0F240314F9C"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "5042C649583CD11B"
+				item: {
+					Count: 1
+					id: "soulsweapons:moonlight_shortsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 19.0d
+		}
+		{
+			id: "4F46B0CD976CAE99"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 65_stage"
+				id: "72A66F792C1838E2"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "13366685C9379FA3"
+				item: {
+					Count: 1
+					id: "ice_and_fire_spellbooks:dragonmancers_oathbook"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 19.0d
+		}
+		{
+			id: "17E164A93E8E567F"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 66_stage"
+				id: "1B8FBA4ED2A9E166"
+				team_reward: false
+				type: "command"
+			}]
+			tasks: [{
+				id: "1E9CFDA98A1A028E"
+				item: {
+					Count: 1
+					id: "soulsweapons:moonlight_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 19.0d
+		}
+		{
+			id: "77EDF6A39D3426D8"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 67_stage"
+				id: "437762E1AE9FA6EF"
+				type: "command"
+			}]
+			tasks: [{
+				id: "588AC63C74910F7D"
+				item: {
+					Count: 1
+					id: "soulsweapons:darkin_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 19.0d
+		}
+		{
+			id: "6DFFD72C0D83FA85"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 68_stage"
+				id: "497A3152EB253294"
+				type: "command"
+			}]
+			tasks: [{
+				id: "65204D9059E00A4F"
+				item: {
+					Count: 1
+					id: "soulsweapons:withered_wabbajack"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 19.0d
+		}
+		{
+			id: "5DFBC945203CC16F"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 69_stage"
+				id: "3348065A9254A1AA"
+				type: "command"
+			}]
+			tasks: [{
+				id: "17CB739B1DBE9A85"
+				item: {
+					Count: 1
+					id: "soulsweapons:dragonslayer_swordspear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 19.0d
+		}
+		{
+			id: "69338639555AFF4F"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 70_stage"
+				id: "31FABD110A7C949E"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7FC1677F9C37AEC3"
+				item: {
+					Count: 1
+					id: "soulsweapons:rageblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 19.0d
+		}
+		{
+			id: "6858B586F5847FD4"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 71_stage "
+				id: "602FEB08AB0A19F2"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6CA13C581FE6269E"
+				item: {
+					Count: 1
+					id: "soulsweapons:nightfall"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			id: "1CC095F059DF4990"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 72_stage"
+				id: "65F92C438B1BE385"
+				type: "command"
+			}]
+			tasks: [{
+				id: "41330583C809B7EF"
+				item: {
+					Count: 1
+					id: "soulsweapons:comet_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 20.5d
+		}
+		{
+			id: "6697E6FC28077EBC"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 73_stage"
+				id: "45FF1EFB00900F9A"
+				type: "command"
+			}]
+			tasks: [{
+				id: "23F7B68125CA0E9F"
+				item: {
+					Count: 1
+					id: "soulsweapons:lich_bane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 20.5d
+		}
+		{
+			id: "516F77371A006E1B"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 74_stage"
+				id: "5C65E41C95A80E3E"
+				type: "command"
+			}]
+			tasks: [{
+				id: "147C11B9DE67C2CA"
+				item: {
+					Count: 1
+					id: "soulsweapons:galeforce"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 20.5d
+		}
+		{
+			id: "48C838E026F7AACC"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 75_stage"
+				id: "4AB5349C550E0541"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0AFA54A2D7852747"
+				item: {
+					Count: 1
+					id: "soulsweapons:dawnbreaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 20.5d
+		}
+		{
+			id: "0FA847DC79EF61E7"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 76_stage"
+				id: "0C3BDD61B2272EF9"
+				type: "command"
+			}]
+			tasks: [{
+				id: "62E95283881D4EA2"
+				item: {
+					Count: 1
+					id: "soulsweapons:soul_reaper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 20.5d
+		}
+		{
+			id: "0E402630C54964A3"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 77_stage"
+				id: "1EA68F96479CE365"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0C5425D0F66705B8"
+				item: {
+					Count: 1
+					id: "soulsweapons:forlorn_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 20.5d
+		}
+		{
+			id: "6AF95FCBF9A3A894"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 78_stage"
+				id: "19192BE4263BC017"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6BE34B2418B7A95E"
+				item: {
+					Count: 1
+					id: "soulsweapons:leviathan_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 20.5d
+		}
+		{
+			id: "38CD185FA815D1F8"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 79_stage"
+				id: "715042410E3FE8B4"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0B60F677813701E8"
+				item: {
+					Count: 1
+					id: "soulsweapons:skofnung"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			id: "5D283423732970E4"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 80_stage"
+				id: "0F9EC652E3D34EF5"
+				type: "command"
+			}]
+			tasks: [{
+				id: "1EEC4586203739AD"
+				item: {
+					Count: 1
+					id: "soulsweapons:mjolnir"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 22.0d
+		}
+		{
+			id: "13AFE563D306EF34"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 81_stage"
+				id: "422C170BBA2E711F"
+				type: "command"
+			}]
+			tasks: [{
+				id: "083EEFD61765C702"
+				item: {
+					Count: 1
+					id: "soulsweapons:freyr_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 22.0d
+		}
+		{
+			id: "4CDA3F514645806F"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 82_stage"
+				id: "1D5F444BF39C2F06"
+				type: "command"
+			}]
+			tasks: [{
+				id: "56FE81EBD5C05FB7"
+				item: {
+					Count: 1
+					id: "soulsweapons:crucible_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 22.0d
+		}
+		{
+			id: "5535B3B153B997A8"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 83_stage"
+				id: "50590FE9E983A9A8"
+				type: "command"
+			}]
+			tasks: [{
+				id: "36AACD80BD112DE7"
+				item: {
+					Count: 1
+					id: "soulsweapons:darkin_scythe_pre"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 22.0d
+		}
+		{
+			id: "38384754B57C55BD"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 84_stage"
+				id: "729AFEA5C5338232"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6E30C748983555FA"
+				item: {
+					Count: 1
+					id: "soulsweapons:draupnir_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 22.0d
+		}
+		{
+			id: "5EACD69F59142BDC"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 85_stage"
+				id: "1262C4B08035C328"
+				type: "command"
+			}]
+			tasks: [{
+				id: "33024BC6AFA67AA4"
+				item: {
+					Count: 1
+					id: "soulsweapons:holy_moonlight_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 22.0d
+		}
+		{
+			id: "13A6E9C7F9043218"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 86_stage"
+				id: "7DE002061D206D92"
+				type: "command"
+			}]
+			tasks: [{
+				id: "737AE6FA1DD3D5A4"
+				item: {
+					Count: 1
+					id: "soulsweapons:frostmourne"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 22.0d
+		}
+		{
+			id: "45EF7C940531C56C"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 87_stage"
+				id: "1C2FF08EC2497D0A"
+				type: "command"
+			}]
+			tasks: [{
+				id: "207D6C4E8C86B92A"
+				item: {
+					Count: 1
+					id: "soulsweapons:master_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 23.5d
+		}
+		{
+			id: "4CE96FB4F448C67E"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 88_stage"
+				id: "04679C8E84D64763"
+				type: "command"
+			}]
+			tasks: [{
+				id: "25DDC059999338A0"
+				item: {
+					Count: 1
+					id: "soulsweapons:nights_edge_item"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 23.5d
+		}
+		{
+			id: "44D680C5DD1271B3"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 89_stage"
+				id: "594C48EDE67E8308"
+				type: "command"
+			}]
+			tasks: [{
+				id: "23510863FCF68985"
+				item: {
+					Count: 1
+					id: "soulsweapons:kraken_slayer_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 23.5d
+		}
+		{
+			id: "654E5924FFE726EF"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 90_stage"
+				id: "09ADC82D9CF9B35A"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4CCE612DBE41E26D"
+				item: {
+					Count: 1
+					id: "soulsweapons:darkmoon_longbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 23.5d
+		}
+		{
+			id: "6137F3CE1E67751C"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 91_stage"
+				id: "0A5BE8F96FA55ED1"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4F84D8FAF16B7236"
+				item: {
+					Count: 1
+					id: "soulsweapons:dark_moon_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 23.5d
+		}
+		{
+			id: "030D3FA9D256E179"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 92_stage"
+				id: "6457CCCB98B05AD6"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3F2043EB13B5A2DF"
+				item: {
+					Count: 1
+					id: "soulsweapons:glaive_of_hodir"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 23.5d
+		}
+		{
+			id: "1F00B1E70B9D7203"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 93_stage"
+				id: "6FE4366BE78552E9"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7BEB276ADB361FAC"
+				item: {
+					Count: 1
+					id: "soulsweapons:excalibur"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 23.5d
+		}
+		{
+			id: "06CCAAB220D8C2CB"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 94_stage"
+				id: "2E37E38060CDE588"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3F23FAD25B5A2069"
+				item: {
+					Count: 1
+					id: "soulsweapons:moonveil"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 23.5d
+		}
+		{
+			id: "35DE7807A9B35E86"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 95_stage"
+				id: "6A0C9325F6430AA4"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4D134FB28B7DEFFF"
+				item: "mowziesmobs:wrought_helmet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 25.0d
+		}
+		{
+			id: "5CDCF8E06030F921"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 96_stage"
+				id: "4041E7C3C0AC4B24"
+				type: "command"
+			}]
+			tasks: [{
+				id: "75108A4EE5911240"
+				item: "mowziesmobs:wrought_axe"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 25.0d
+		}
+		{
+			id: "54E23686F74EBB9A"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 97_stage"
+				id: "51629DA6625FD059"
+				type: "command"
+			}]
+			tasks: [{
+				id: "42CFDD2437A773DB"
+				item: {
+					Count: 1
+					id: "traveloptics:codex_of_the_crushing_depths"
+					tag: {
+						ISBEnhance: "traveloptics:vortex_of_the_deep"
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:aqua_missiles"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 25.0d
+		}
+		{
+			id: "20AA425CC4FC0072"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 98_stage"
+				id: "40066261E312CEBC"
+				type: "command"
+			}]
+			tasks: [{
+				id: "05D16D7C1DD863CF"
+				item: {
+					Count: 1
+					id: "traveloptics:archive_of_abyssal_secrets"
+					tag: {
+						ISBEnhance: "traveloptics:cursed_minefield"
+						ISB_Spells: {
+							data: [
+								{
+									id: "traveloptics:shadowed_miasma"
+									index: 0
+									level: 3
+									locked: 1b
+								}
+								{
+									id: "traveloptics:orbital_void"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 25.0d
+		}
+		{
+			id: "233F8F8C6903AD17"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 99_stage"
+				id: "71E446A408AA7877"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6CAE66A467F44595"
+				item: {
+					Count: 1
+					id: "traveloptics:the_accused_codex"
+					tag: {
+						ISBEnhance: "traveloptics:cursed_blast"
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:halberd_horizon"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 25.0d
+		}
+		{
+			id: "1BCC07971A812929"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 100_stage"
+				id: "7A640C43E786FDE5"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7B1149BBDB0031A6"
+				item: {
+					Count: 1
+					id: "traveloptics:chronicles_of_the_firelord"
+					tag: {
+						ISBEnhance: "traveloptics:burning_judgment"
+						ISB_Spells: {
+							data: [
+								{
+									id: "irons_spellbooks:flaming_strike"
+									index: 0
+									level: 5
+									locked: 1b
+								}
+								{
+									id: "traveloptics:meteor_storm"
+									index: 1
+									level: 5
+									locked: 1b
+								}
+							]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 25.0d
+		}
+		{
+			id: "0C77017D5F8A9B3E"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 101_stage"
+				id: "78FBB628D3795415"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6C923A1A91622E1A"
+				item: {
+					Count: 1
+					id: "traveloptics:wand_of_final_light"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:supernova"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 25.0d
+		}
+		{
+			id: "511129427D31B123"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 102_stage"
+				id: "43005E31D8304FA5"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6FBD71F23DCAF709"
+				item: {
+					Count: 1
+					id: "traveloptics:stellothorn"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:shear_of_the_stars"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 25.0d
+		}
+		{
+			id: "40BD9011ED932703"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 103_stage"
+				id: "60A3AA7647310BE8"
+				type: "command"
+			}]
+			tasks: [{
+				id: "767E85805C1EC544"
+				item: {
+					Count: 1
+					id: "traveloptics:trident_of_the_eternal_maelstrom"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:tidal_slash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 26.5d
+		}
+		{
+			id: "6F1378718C7F0E58"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 104_stage"
+				id: "08F1FCC3A94FECB8"
+				type: "command"
+			}]
+			tasks: [{
+				id: "19E0CB2DFEA639D0"
+				item: {
+					Count: 1
+					id: "traveloptics:gauntlet_of_extinction"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:extinction"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 26.5d
+		}
+		{
+			id: "47D979230F12508A"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 105_stage"
+				id: "66E8CEBC66415CC6"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4D4B8F8C42AF6AE5"
+				item: {
+					Count: 1
+					id: "traveloptics:abyssal_tidecaller"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:shadowed_miasma"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 26.5d
+		}
+		{
+			id: "44CD0D47F27628C2"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 106_stage"
+				id: "1E63E208ACAF9450"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0CF88F379830CFBC"
+				item: {
+					Count: 1
+					id: "traveloptics:cursed_wraithblade"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:cursed_blast"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 26.5d
+		}
+		{
+			id: "66389CD5E4545A1C"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 107_stage"
+				id: "25C73DE052B17279"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0369C81EF9B43E3A"
+				item: {
+					Count: 1
+					id: "traveloptics:flames_of_eldritch"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:burning_judgment"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 26.5d
+		}
+		{
+			id: "350AC475D496AE02"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 108_stage"
+				id: "2C91BC79D2571A77"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2A7CFC1CC31B5CB8"
+				item: {
+					Count: 1
+					id: "traveloptics:harbingers_wrath"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:em_pulse"
+								index: 0
+								level: 5
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 26.5d
+		}
+		{
+			id: "3156B51314500D1D"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 109_stage"
+				id: "0A24E3DF7ED1D782"
+				type: "command"
+			}]
+			tasks: [{
+				id: "58EF7C9BFF134E2F"
+				item: {
+					Count: 1
+					id: "traveloptics:scourge_of_the_sands"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:stele_cascade"
+								index: 0
+								level: 6
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 26.5d
+		}
+		{
+			id: "11638E89B3A249BA"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 110_stage"
+				id: "63B0345F4CDCC6C9"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0804DA8C3490F20F"
+				item: {
+					Count: 1
+					id: "traveloptics:voidstrike_reaper"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:vortex_punch"
+								index: 0
+								level: 3
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 26.5d
+		}
+		{
+			id: "0F8A8980FAB6A783"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 111_stage"
+				id: "43BF5A7DC5E48346"
+				type: "command"
+			}]
+			tasks: [{
+				id: "1CA24C6CDA43018A"
+				item: {
+					Count: 1
+					id: "traveloptics:infernal_devastator"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "traveloptics:gyro_slash"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 28.0d
+		}
+		{
+			id: "24B17D8732027B27"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 112_stage"
+				id: "65BBC81C49FCA28D"
+				type: "command"
+			}]
+			tasks: [{
+				id: "75A735445E55A677"
+				item: "traveloptics:forlorn_harbinger_hood"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 28.0d
+		}
+		{
+			id: "3714631783A52838"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 113_stage"
+				id: "5571B0191A005B80"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7791975362ABCEC9"
+				item: {
+					Count: 1
+					id: "traveloptics:forlorn_harbinger_robe"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 28.0d
+		}
+		{
+			id: "1C82BE9228E60117"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 114_stage"
+				id: "3EF0DD4AD70B034B"
+				type: "command"
+			}]
+			tasks: [{
+				id: "72235F2D2CB995AE"
+				item: "traveloptics:forlorn_harbinger_leggings"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 28.0d
+		}
+		{
+			id: "3AB151121E8526CF"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 115_stage"
+				id: "57B96A44137DA1D2"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0F896D7FFE607953"
+				item: "traveloptics:forlorn_harbinger_boots"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 28.0d
+		}
+		{
+			id: "3F3E84F7D1574D73"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 116_stage"
+				id: "23EE5298A95F3D7D"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4241E91E0DB4DE13"
+				item: "traveloptics:tectonic_crest_armor_helmet"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 28.0d
+		}
+		{
+			id: "1054D87B3E18CBD4"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 117_stage"
+				id: "4541BB0563C97923"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7E2FB22647A0F96D"
+				item: {
+					Count: 1
+					id: "traveloptics:tectonic_crest_armor_chestplate"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 28.0d
+		}
+		{
+			id: "7341C32F41813865"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 118_stage"
+				id: "748EE05E4BACF7DF"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0817814DF260797B"
+				item: "traveloptics:tectonic_crest_armor_leggings"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 28.0d
+		}
+		{
+			id: "52757B6FC5283752"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 119_stage"
+				id: "63BE906E4817C038"
+				type: "command"
+			}]
+			tasks: [{
+				id: "33DC698C58FC53A9"
+				item: "traveloptics:tectonic_crest_armor_boots"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 29.5d
+		}
+		{
+			id: "122E2016C9FECB22"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 120_stage"
+				id: "0F4C3AFE0D266127"
+				type: "command"
+			}]
+			tasks: [{
+				id: "12A99FF25BE2D704"
+				item: "traveloptics:abyssal_hide_armor_hat"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 29.5d
+		}
+		{
+			id: "418C445B31D05D55"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 121_stage"
+				id: "5B9CAE9C62917D6E"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7FFEC2763EE331CF"
+				item: {
+					Count: 1
+					id: "traveloptics:abyssal_hide_armor_robe"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 29.5d
+		}
+		{
+			id: "2C5476541774E483"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 122_stage"
+				id: "7576B722918E8F45"
+				type: "command"
+			}]
+			tasks: [{
+				id: "672AA5A56BE3911D"
+				item: "traveloptics:abyssal_hide_armor_leggings"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 29.5d
+		}
+		{
+			id: "2F22105E9D61DAC8"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 123_stage"
+				id: "5B544F77CA897887"
+				type: "command"
+			}]
+			tasks: [{
+				id: "05FC86B5D2DE907C"
+				item: "traveloptics:abyssal_hide_armor_boots"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 29.5d
+		}
+		{
+			id: "078CC321D1C98380"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove 124_stage"
+				id: "5DC263E078CE3DEF"
+				type: "command"
+			}]
+			tasks: [{
+				id: "2347D6C375A4BACA"
+				item: "traveloptics:cursed_wraithguard_crown"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 29.5d
+		}
+		{
+			id: "385D18F325088E6F"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 125_stage"
+				id: "2DAB5C57BA4281CE"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6F1D048554F04E2E"
+				item: {
+					Count: 1
+					id: "traveloptics:cursed_wraithguard_chestplate"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 29.5d
+		}
+		{
+			id: "3782575D87617170"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 126_stage"
+				id: "751DAAAEF244AE23"
+				type: "command"
+			}]
+			tasks: [{
+				id: "57F15AF6564747DF"
+				item: "traveloptics:cursed_wraithguard_spectral_wrapping"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 29.5d
+		}
+		{
+			id: "507F509239FBBB7E"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 127_stage"
+				id: "75B6D172B077C698"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4C18B785199C8224"
+				item: "traveloptics:cursed_wraithguard_boots"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 31.0d
+		}
+		{
+			id: "2E2028696B9AF1B5"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 128_stage"
+				id: "017B79483F9368CD"
+				type: "command"
+			}]
+			tasks: [{
+				id: "337AAF8B933A550E"
+				item: "traveloptics:mechanized_exoskeleton_helmet"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 31.0d
+		}
+		{
+			id: "40397EA492F37954"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 129_stage"
+				id: "589C56F1CC4DD966"
+				type: "command"
+			}]
+			tasks: [{
+				id: "765CA0BBDBD4F991"
+				item: {
+					Count: 1
+					id: "traveloptics:mechanized_exoskeleton_chestplate"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 1
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 31.0d
+		}
+		{
+			id: "7F66BC90996C05E2"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 130_stage"
+				id: "0E0ADA2AEEE33B71"
+				type: "command"
+			}]
+			tasks: [{
+				id: "103A8568911749E2"
+				item: "traveloptics:mechanized_exoskeleton_leggings"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 31.0d
+		}
+		{
+			id: "5D0AEC7EA8D6ABEE"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage remove @a 131_stage"
+				id: "3D43A65E5449ADAE"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4EC02CBEC6A64FA0"
+				item: "traveloptics:mechanized_exoskeleton_boots"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 31.0d
+		}
+	]
+	subtitle: ["整个世界只能获得一次的物品"]
+	title: "神器"
+}

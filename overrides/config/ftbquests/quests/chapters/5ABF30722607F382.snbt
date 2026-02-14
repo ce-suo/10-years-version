@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5ABF30722607F382"
+	group: ""
+	icon: "tconstruct:encyclopedia"
+	id: "5ABF30722607F382"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "11EDB3DA8FD19915"
+		tasks: [{
+			id: "3B5614CE46867772"
+			title: "MC百科匠魂3"
+			type: "checkmark"
+		}]
+		x: -1.0d
+		y: -2.0d
+	}]
+	title: "匠魂"
+}

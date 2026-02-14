@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6ECC53EA69284372"
+	group: ""
+	icon: "yuushya:tabby"
+	id: "6ECC53EA69284372"
+	order_index: 12
+	quest_links: [ ]
+	quests: [{
+		id: "28CCF641B0EE3305"
+		tasks: [{
+			id: "06F5D708A2D949A4"
+			title: "方块小镇为主"
+			type: "checkmark"
+		}]
+		x: -1.0d
+		y: -0.5d
+	}]
+	title: "装饰与建筑"
+}

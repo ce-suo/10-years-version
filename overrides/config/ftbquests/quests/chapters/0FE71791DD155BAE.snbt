@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0FE71791DD155BAE"
+	group: ""
+	icon: "mekanismgenerators:heat_generator"
+	id: "0FE71791DD155BAE"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "39420B1970BC3CDD"
+		tasks: [{
+			id: "1B6B705FA7BBB593"
+			title: "详情可查看通用机械mod"
+			type: "checkmark"
+		}]
+		x: -2.0d
+		y: -1.0d
+	}]
+	title: "工业"
+}

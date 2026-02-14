@@ -1,0 +1,27 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "722A0A903CE1EB76"
+	group: ""
+	icon: {
+		Count: 1
+		id: "modulargolems:golem_facade"
+		tag: {
+			FacadeSkin: "modulargolems:iron"
+		}
+	}
+	id: "722A0A903CE1EB76"
+	order_index: 15
+	quest_links: [ ]
+	quests: [{
+		id: "4DE4CA75ECF24FEE"
+		tasks: [{
+			id: "0404C291130D08CC"
+			title: "与女仆一样，更为强大的战斗力"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "傀儡"
+}

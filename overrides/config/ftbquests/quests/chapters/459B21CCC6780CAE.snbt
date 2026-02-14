@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "459B21CCC6780CAE"
+	group: "10BB6212A555998F"
+	icon: "ad_astra:glacio_globe"
+	id: "459B21CCC6780CAE"
+	order_index: 12
+	quest_links: [ ]
+	quests: [{
+		id: "54F5D15C7D3757EE"
+		tasks: [{
+			id: "7F6914E57EC85C56"
+			title: "ad astra"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: -1.5d
+	}]
+	title: "霜原星"
+}

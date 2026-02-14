@@ -1,0 +1,20 @@
+{
+	id: "3351E42C7446EF7A"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "minecraft:diamond_block" }
+		{ count: 5, item: "minecraft:ancient_debris" }
+		{
+			type: "xp_levels"
+			xp_levels: 30
+		}
+		{ count: 3, item: "gobber2:gobber2_ingot" }
+		{ count: 5, item: "celestial_enchantments:basic_celestial_catalyst" }
+		{ count: 3, item: "celestial_enchantments:advanced_celestial_catalyst" }
+		{ item: "celestial_enchantments:legendary_celestial_catalyst" }
+		{ count: 6, item: "gobber2:gobber2_globette_nether" }
+		{ count: 3, item: "gobber2:gobber2_globette_end" }
+	]
+	title: "BOSS"
+}
