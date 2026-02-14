@@ -1,0 +1,1 @@
+This version has made numerical adjustments to in-game weapons, armor sets, and bosses, added more dimensions, adjusted the structural generation of dimensions including the main world, added more creatures, and introduced a series of gameplay features including Tinkers' Construct, TacZ, Farmer's Delight, and more
